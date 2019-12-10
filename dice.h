@@ -1,4 +1,14 @@
+  /*- --- ---	Die - Class
+[?]  The basic die class for normal dice
+[?]
+[?]
+[?]
+[?]
+  \*- --- --- --- -*/
 
+//####  Preprocessor Directives
+    //  includes
+        #include "dice.cpp"
 
         class Die {
 
@@ -9,6 +19,7 @@
                 left,
                 back,
                 feet;
+
 
         public:
 

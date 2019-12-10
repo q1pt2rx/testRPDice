@@ -16,6 +16,10 @@
         #include <string>
         #include <vector>
 
+    //  classes
+        #include "dice.h"
+        
+
 //NMSP  namespaces
         using namespace std;
 
