@@ -1,18 +1,23 @@
   /*- --- ---	Die - Class
 [?]  The basic die class for normal dice
 [?]
-[?]
-[?]
+[?]         -qaptoR volArE
+[?]             2019-12-10
 [?]
   \*- --- --- --- -*/
 
-//####  Preprocessor Directives
-    //  includes
-        #include "dice.cpp"
+
+
+
+	 /*- --- ---	Die
+    ;;  
+    ;;
+     \*- --- --- --- -*/
 
         class Die {
 
         private:
+        
             int head,
                 chest,
                 right,
