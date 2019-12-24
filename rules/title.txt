@@ -1,5 +1,8 @@
+        
         Welcome to the Ultimate Roleplaying strategy board-game experience:
-                RolePlayDice - (RPDice)
+                            
+                            RolePlayDice - (RPDice)
     
-    Two players -- up to four -- will go head to head across four planes of battle with their
-        massive armies at their disposal. 
+
+    Two players -- up to four (eventually) -- will go head to head across 
+        four planes of battle with their massive armies at their disposal. 

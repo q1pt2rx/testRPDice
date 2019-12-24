@@ -1,5 +1,6 @@
   /*- --- ---	text RPDice
-[?]  
+[?]  Test-based implementation of the Roleplay Dice
+[?]     game: a proof of concept
 [?]
 [?]     -qaptoR
 [?]         2019-12-09
@@ -26,21 +27,17 @@
 //----  --- ----
         int main () {
             
-            ifstream rTitle;
-            rTitle.open("rules\\title.txt");
-            if ( rTitle.fail() ) {
-                cout << "Could not open title file" << endl;
-                return 1;
-            }
+            if ( !bPrintGameTitle() ) return 1;
+                //  perhaps write better error to user at a later time
 
-            while ( !rTitle.eof() ) {
-                string s;
-                getline(rTitle, s);
-                if ( rTitle.eof() ) break;
-                cout << s << endl;
-            }
 
-            rTitle.close();
+    //////  Main Game Loop
+             do {
+                 
+                 cout << "\n\n\t\tNEW GAME!" << endl;
+
+             } while ( bGetRepeatGameResp() );
+
 
             return 0;
         }

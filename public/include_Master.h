@@ -9,7 +9,9 @@
 
 
 //####  Preprocessor Directives
-    //  includes
+  ////  includes
+
+    //  libraries
         #include <iostream>
         #include <fstream>
         #include <sstream>
@@ -20,3 +22,10 @@
 
     //  classes
         #include "dice.h"
+
+    //  general functions
+        #include "gen_Functions\gen_Functions.h"
+
+
+//NMSP  Namespaces
+        using namespace std;
