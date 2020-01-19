@@ -17,6 +17,11 @@
         class Board {
         //  members
             //  map of colors (2d bool array)
+                //  might as well be a 2d array of "cells" each with 
+                    //  a color (bool)
+                    //  a pointer to a players dice
+                    //  a terrain type
+            
 
         //  Methods
             //  printBoard

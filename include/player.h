@@ -22,14 +22,16 @@
                 //  artifacts
                 //  magical focus
 
+
             //  Class / subclass
                 //  health pool
                 //  mana pool
                 //  stamina pool
                 //  power pool
                 //  gold pool
+                //  "hand"
                 
-            //  total base dice ppol (100)
+            //  total base dice pool (100) (different per palyer count)
             //      different for each game mode
 
 

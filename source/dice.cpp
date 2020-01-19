@@ -1,4 +1,16 @@
-    #include "dice.h"
+  /*- --- ---	Dice - Implementation
+[?]  
+[?]
+[?]
+[?]
+[?]
+  \*- --- --- --- -*/
+    
+    
+//####  Preprocessor Directives
+  ////  Includes
+    //  Libraries
+        #include "include_Master.h"
 
 	 /*- --- ---	Die :: vYaw
   void  turn die left or right for at most 2 rotations

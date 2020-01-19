@@ -7,6 +7,12 @@
   \*- --- --- --- -*/
 
 
+        class Game;
+
 //()()  Function Prototypes
         bool bPrintGameTitle();
         bool bGetRepeatGameResp();
+        bool bPrintStartMenu();
+
+        Game vNewGameStart();
+        Game vLoadGame();

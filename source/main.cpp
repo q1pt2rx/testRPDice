@@ -32,11 +32,15 @@
 
 
     //////  Main Game Loop
-             do {
-                 
-                 cout << "\n\n\t\tNEW GAME!" << endl;
+            do {
+                
+                Game Conquest = bPrintStartMenu() ? 
+                 Game_NewGameStart() : Game_LoadGame();
+                
+            //  FOR TESTING
+                cout << "\n\n\t\tNEW GAME!" << endl;
 
-             } while ( bGetRepeatGameResp() );
+            } while ( bGetRepeatGameResp() );
 
 
             return 0;
