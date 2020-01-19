@@ -11,12 +11,9 @@
 
 //####  Preprocessor Directives
     //  Master include
-        #include "public\include_Master.h"
+        #include "include_Master.h"
 
-
-//NMSP  namespaces
         using namespace std;
-
 
 
 	 /*- --- ---    main
@@ -27,15 +24,16 @@
 //----  --- ----
         int main () {
             
-            if ( !bPrintGameTitle() ) return 1;
+            if ( !bPrintGameText("resource\\title.txt") ) return 1;
                 //  perhaps write better error to user at a later time
 
 
     //////  Main Game Loop
             do {
                 
-                Game Conquest = bPrintStartMenu() ? 
-                 Game_NewGameStart() : Game_LoadGame();
+                bPrintGameText("resource\\PLACEHOLDER")
+                Game Conquest =  ? 
+                  Game_NewGameStart() : Game_LoadGame();
                 
             //  FOR TESTING
                 cout << "\n\n\t\tNEW GAME!" << endl;

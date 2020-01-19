@@ -9,7 +9,14 @@
 
 
 //####  Preprocessor Directives
+
+#ifndef __INC_MASTER__
+#define __INC_MASTER__
+
   ////  includes
+
+    //  general functions
+        #include "gen_Functions.h"
 
     //  libraries
         #include <iostream>
@@ -21,11 +28,6 @@
         #include <vector>
 
     //  classes
-        #include "dice.h"
+        //#include "dice.h"
 
-    //  general functions
-        #include "gen_Functions\gen_Functions.h"
-
-
-//NMSP  Namespaces
-        using namespace std;
+#endif

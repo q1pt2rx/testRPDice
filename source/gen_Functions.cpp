@@ -9,25 +9,27 @@
 
 
 //####  Preprocessor Directives
-    //  Master include
-        #include "..\\include_Master.h"
 
-//NMSP  Namespaces
+        #include "gen_Functions.h"
+
+        #include <iostream>
+        #include <fstream>
+        #include <string>
+
         using namespace std;
 
 
 
 	 /*- --- ---	bPrintGameTitle
-  bool  Prints the Game Title and welcome message from 
-    ()      a file.
+  bool  Prints the Game Title and welcome message 
+    ()      from a file.
     ()
      \*- --- --- --- -*/
 
-        bool bPrintGameTitle () {
+        bool bPrintGameText (string filename) {
 
         //  open file
-            ifstream rTitle;
-            rTitle.open("rules\\title.txt");
+            ifstream rTitle(filename);
         
         //  end program if failure
             if ( rTitle.fail() ) {
@@ -44,9 +46,9 @@
             return true;
         }
 
+
+
     //- --- --- --- --- --- --- --- --- --- --- --- -//
-
-
 
 	 /*- --- ---	bGetRepeatGameResp
   bool  loops getting a valid response  to repeat the program 
@@ -83,6 +85,8 @@
             return (c == 'y') ? true : false;
         }
     
+
+
     //- --- --- --- --- --- --- --- --- --- --- --- -//
 
 
